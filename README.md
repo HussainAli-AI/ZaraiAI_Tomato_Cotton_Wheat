@@ -8,6 +8,9 @@
 [![RAG](https://img.shields.io/badge/RAG-Grounded_Extension_Science-green.svg)]()
 [![LLM](https://img.shields.io/badge/LLM-Qwen3.7--Plus_(Alibaba_Cloud)-orange.svg)]()
 
+> 🚀 **Live Web Application:** **[https://zaraiaitomatocottonwheat-sgmc3ltf5d8j8bujbrbd6b.streamlit.app/](https://zaraiaitomatocottonwheat-sgmc3ltf5d8j8bujbrbd6b.streamlit.app/)**  
+> *Test crop disease diagnosis with Grad-CAM explainability, real-time weather spray advisories, and grounded RAG directly in your browser.*
+
 ---
 
 ## 🌾 1. Overview & Problem Statement
