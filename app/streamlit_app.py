@@ -12,6 +12,11 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import json
+import torch
+
+# Optimize PyTorch memory footprint for cloud container limits
+torch.set_num_threads(1)
+torch.set_grad_enabled(False)
 
 from src.workflow.graph import ZaraiWorkflow
 from src.llm.client import QwenClient, PROVIDER_PRESETS
@@ -176,9 +181,14 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# Cached Global Workflow Instance (Memory-Efficient Singleton)
+@st.cache_resource
+def get_global_workflow():
+    return ZaraiWorkflow()
+
+workflow = get_global_workflow()
+
 # Initialize Session State
-if "workflow" not in st.session_state:
-    st.session_state.workflow = ZaraiWorkflow()
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 if "latest_analysis" not in st.session_state:
@@ -395,7 +405,7 @@ with tab1:
     if analyze_btn and uploaded_file:
         with st.spinner(t["analyzing"]):
             img = Image.open(uploaded_file).convert("RGB")
-            result = st.session_state.workflow.run_pipeline(
+            result = workflow.run_pipeline(
                 crop=crop,
                 image_input=img,
                 user_query=user_notes,
@@ -495,7 +505,7 @@ with tab2:
     
     if chat_send and chat_query:
         with st.spinner("Retrieving agricultural guidance & querying LLM..."):
-            ans = st.session_state.workflow.run_pipeline(
+            ans = workflow.run_pipeline(
                 crop=crop,
                 image_input=None,
                 user_query=chat_query,

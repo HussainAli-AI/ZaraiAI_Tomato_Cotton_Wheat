@@ -13,23 +13,27 @@ class MultilingualEmbedder:
         self.provider = provider
         self.model_name = model_name
         self.local_model = None
-        
-        if self.provider == "sentence-transformers":
+        self._tried_loading = False
+
+    def _get_model(self):
+        """Lazy load SentenceTransformer on demand with safe memory fallback."""
+        if not self._tried_loading and self.provider == "sentence-transformers":
+            self._tried_loading = True
             try:
                 from sentence_transformers import SentenceTransformer
-                print(f"Loading multilingual embedding model: {self.model_name}...")
                 self.local_model = SentenceTransformer(self.model_name)
-            except Exception as e:
-                print(f"[NOTE] SentenceTransformer could not be initialized directly ({e}). Using robust fallback TF-IDF/Dense embedding.")
+            except Exception:
                 self.local_model = None
+        return self.local_model
 
     def embed_texts(self, texts: List[str]) -> List[List[float]]:
         """Embed a list of text strings into vector representations."""
         if not texts:
             return []
             
-        if self.local_model is not None:
-            embeddings = self.local_model.encode(texts, normalize_embeddings=True, show_progress_bar=False)
+        model = self._get_model()
+        if model is not None:
+            embeddings = model.encode(texts, normalize_embeddings=True, show_progress_bar=False)
             return embeddings.tolist()
             
         # Deterministic lightweight semantic fallback for hackathon resilience

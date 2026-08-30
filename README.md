@@ -1,6 +1,7 @@
 # 🌱 ZaraiAI (زرعی اے آئی)
 ### *AI-Powered Crop Intelligence for Every Farmer*
 
+[![Live Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://zaraiaitomatocottonwheat-sgmc3ltf5d8j8bujbrbd6b.streamlit.app/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Hackathon Track](https://img.shields.io/badge/Hackathon-Smart_Agriculture_(Pakistan)-2E7D32.svg)]()
 [![Model](https://img.shields.io/badge/Vision_Backbone-EfficientNet--B0-blue.svg)]()
