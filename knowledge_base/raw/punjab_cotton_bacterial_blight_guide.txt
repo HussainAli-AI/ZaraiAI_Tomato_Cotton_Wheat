@@ -1,0 +1,23 @@
+AARI / Punjab Agriculture Department: Cotton Bacterial Blight, Fusarium & Verticillium Wilt Management
+
+1. BACTERIAL BLIGHT / ANGULAR LEAF SPOT (Xanthomonas citri pv. malvacearum):
+- Symptoms:
+  * Small, water-soaked polygonal/angular lesions on leaves delimited by veins. Lesions turn reddish-brown to black.
+  * 'Black Arm' phase: Elongated black cankers on branches and main stem, causing branch breakage and boll drop.
+  * Water-soaked oily spots on developing cotton bolls, rotting fiber and lint.
+- Weather conditions: Warm, humid, rainy monsoon conditions (July-September). Wind-driven rain rapidly spreads bacterial ooze.
+- Management & Chemical Control:
+  * Delint seed with concentrated Sulphuric Acid (1 kg acid per 10 kg seed).
+  * Foliar Spray: Copper Oxychloride 50 WP @ 2.5-3.0 g/L (800g-1 kg/acre) + Streptomycin sulphate / Kasugamycin (Kasumin) @ 250-300 ml/acre at first symptom appearance.
+  * Repeat spray after heavy monsoon showers if symptoms persist. Avoid working in fields when canopy is wet.
+
+2. COTTON WILT DISEASES (Fusarium & Verticillium Wilt):
+- Fusarium Wilt (Fusarium oxysporum f. sp. vasinfectum):
+  * Known locally as 'Ukhera'. Symptoms start on lower leaves: yellowing, browning, wilting, and dark brown vascular ring inside cut stem.
+- Verticillium Wilt (Verticillium dahliae):
+  * Tiger-stripe interveinal chlorosis and necrosis. Prevalent in cooler soils in late season.
+- Management:
+  * Crop rotation with sorghum, maize, or paddy rice to reduce soil pathogen load.
+  * Apply Trichoderma harzianum @ 1-2 kg/acre with well-rotted farmyard manure during land preparation.
+  * Soil drench with Thiophanate-methyl 70 WP @ 500g/acre or Carbendazim @ 500g/acre through irrigation water at early stage.
+  * Avoid over-irrigation and water stagnation.

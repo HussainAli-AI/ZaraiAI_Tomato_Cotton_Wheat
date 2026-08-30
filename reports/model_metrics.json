@@ -1,0 +1,261 @@
+{
+  "cotton": {
+    "crop": "cotton",
+    "architecture": "efficientnet_b0",
+    "test_accuracy": 0.9827,
+    "macro_precision": 0.9846,
+    "macro_recall": 0.9875,
+    "macro_f1": 0.9857,
+    "average_latency_ms": 27.84,
+    "model_size_mb": 16.83,
+    "total_test_samples": 173,
+    "per_class_metrics": {
+      "Alternaria Leaf Spot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 26
+      },
+      "Bacterial Blight": {
+        "precision": 0.9667,
+        "recall": 1.0,
+        "f1_score": 0.9831,
+        "test_samples": 29
+      },
+      "Fusarium Wilt": {
+        "precision": 1.0,
+        "recall": 0.9375,
+        "f1_score": 0.9677,
+        "test_samples": 48
+      },
+      "Healthy Leaf": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 26
+      },
+      "Verticillium Wilt": {
+        "precision": 0.9565,
+        "recall": 1.0,
+        "f1_score": 0.9778,
+        "test_samples": 44
+      }
+    },
+    "confusion_matrix": [
+      [
+        26,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        29,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        45,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        26,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        44
+      ]
+    ]
+  },
+  "tomato": {
+    "crop": "tomato",
+    "architecture": "efficientnet_b0",
+    "test_accuracy": 0.7311,
+    "macro_precision": 0.7497,
+    "macro_recall": 0.7312,
+    "macro_f1": 0.7241,
+    "average_latency_ms": 29.52,
+    "model_size_mb": 16.83,
+    "total_test_samples": 119,
+    "per_class_metrics": {
+      "Tomato_Early_blight_leaf": {
+        "precision": 0.5217,
+        "recall": 0.7059,
+        "f1_score": 0.6,
+        "test_samples": 17
+      },
+      "Tomato_Healthy_leaf": {
+        "precision": 0.6667,
+        "recall": 0.9,
+        "f1_score": 0.766,
+        "test_samples": 20
+      },
+      "Tomato_Septoria_leaf_spot": {
+        "precision": 0.7407,
+        "recall": 0.7692,
+        "f1_score": 0.7547,
+        "test_samples": 26
+      },
+      "Tomato_leaf_late_blight": {
+        "precision": 0.8,
+        "recall": 0.5,
+        "f1_score": 0.6154,
+        "test_samples": 16
+      },
+      "Tomato_leaf_yellow_curl_virus": {
+        "precision": 0.7692,
+        "recall": 0.8333,
+        "f1_score": 0.8,
+        "test_samples": 12
+      },
+      "Tomato_mold_leaf": {
+        "precision": 1.0,
+        "recall": 0.6786,
+        "f1_score": 0.8085,
+        "test_samples": 28
+      }
+    },
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        3,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        18,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        4,
+        2,
+        20,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        4,
+        0,
+        8,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        3,
+        2,
+        4,
+        0,
+        0,
+        19
+      ]
+    ]
+  },
+  "wheat": {
+    "crop": "wheat",
+    "architecture": "efficientnet_b0",
+    "test_accuracy": 0.973,
+    "macro_precision": 0.9695,
+    "macro_recall": 0.9707,
+    "macro_f1": 0.9699,
+    "average_latency_ms": 20.71,
+    "model_size_mb": 16.83,
+    "total_test_samples": 222,
+    "per_class_metrics": {
+      "BlackPoint": {
+        "precision": 0.9773,
+        "recall": 0.9348,
+        "f1_score": 0.9556,
+        "test_samples": 46
+      },
+      "FusariumFootRot": {
+        "precision": 0.973,
+        "recall": 0.973,
+        "f1_score": 0.973,
+        "test_samples": 37
+      },
+      "HealthyLeaf": {
+        "precision": 0.8974,
+        "recall": 0.9459,
+        "f1_score": 0.9211,
+        "test_samples": 37
+      },
+      "LeafBlight": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 55
+      },
+      "WheatBlast": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "test_samples": 47
+      }
+    },
+    "confusion_matrix": [
+      [
+        43,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        36,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        35,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        55,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        47
+      ]
+    ]
+  }
+}

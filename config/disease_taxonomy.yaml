@@ -1,0 +1,239 @@
+# ZaraiAI Canonical Disease Taxonomy for Tomato, Wheat, and Cotton in Pakistan
+# Grounded in official pathology standards and Pakistani agricultural research
+
+tomato:
+  classes:
+    - id: "healthy"
+      canonical_name: "Healthy Tomato Leaf"
+      dataset_labels: ["Healthy", "healthy", "Healthy Leaf", "Tomato_Healthy_leaf"]
+      urdu_name: "صحت مند ٹماٹر کا پتہ"
+      roman_urdu_name: "Sehatmand Tamatar Ka Patta"
+      pathogen: null
+      disease_type: "healthy"
+      rag_aliases:
+        - "healthy tomato"
+        - "tamatar sehatmand"
+        - "normal leaf condition"
+
+    - id: "early_blight"
+      canonical_name: "Early Blight"
+      dataset_labels: ["Early Blight", "early_blight", "Early_Blight", "Tomato Early Blight", "Tomato_Early_blight_leaf"]
+      urdu_name: "ابتدائی جھلسائو (ارلی بلائٹ)"
+      roman_urdu_name: "Early Blight / Ibtidai Jhulsao"
+      pathogen: "Alternaria solani"
+      disease_type: "fungal"
+      rag_aliases:
+        - "early blight tomato"
+        - "alternaria solani"
+        - "target board spots"
+        - "tamatar par bhooray dhabay"
+        - "concentric rings on lower leaves"
+
+    - id: "late_blight"
+      canonical_name: "Late Blight"
+      dataset_labels: ["Late Blight", "late_blight", "Late_Blight", "Tomato Late Blight", "Tomato_leaf_late_blight"]
+      urdu_name: "پچھیتا جھلسائو (لیٹ بلائٹ)"
+      roman_urdu_name: "Late Blight / Pacheeta Jhulsao"
+      pathogen: "Phytophthora infestans"
+      disease_type: "oomycete"
+      rag_aliases:
+        - "late blight tomato"
+        - "phytophthora infestans"
+        - "water soaked lesions"
+        - "tamatar pacheeta jhulsao"
+        - "rapid foliage rotting"
+
+    - id: "septoria_leaf_spot"
+      canonical_name: "Septoria Leaf Spot"
+      dataset_labels: ["Septoria Leaf Spot", "septoria_leaf_spot", "Septoria_Leaf_Spot", "Tomato_Septoria_leaf_spot"]
+      urdu_name: "سیپٹوریا پتوں کے دھبے"
+      roman_urdu_name: "Septoria Leaf Spot / Patton Ke Dhabay"
+      pathogen: "Septoria lycopersici"
+      disease_type: "fungal"
+      rag_aliases:
+        - "septoria leaf spot tomato"
+        - "septoria lycopersici"
+        - "small circular dark spots with grey center"
+
+    - id: "leaf_mold"
+      canonical_name: "Leaf Mold"
+      dataset_labels: ["Leaf Mold", "leaf_mold", "Leaf_Mold", "Tomato_mold_leaf", "mold_leaf"]
+      urdu_name: "پتوں کی پھپھوندی (لیف مولڈ)"
+      roman_urdu_name: "Leaf Mold / Patton Ki Phaphoondi"
+      pathogen: "Passalora fulva"
+      disease_type: "fungal"
+      rag_aliases:
+        - "leaf mold tomato"
+        - "passalora fulva"
+        - "olive green velvety fungal growth"
+        - "tunnel humidity disease"
+
+    - id: "yellow_leaf_curl_virus"
+      canonical_name: "Tomato Yellow Leaf Curl Virus (TYLCV)"
+      dataset_labels: ["Yellow Leaf Curl Virus", "yellow_leaf_curl_virus", "Tomato_Yellow_Leaf_Curl_Virus", "Tomato_leaf_yellow_curl_virus", "tylcv"]
+      urdu_name: "ٹماٹر کے پتوں کا مڑنا اور زردی وائرس (TYLCV)"
+      roman_urdu_name: "Yellow Leaf Curl Virus / Patton Ka Murna"
+      pathogen: "Tomato yellow leaf curl virus (TYLCV)"
+      disease_type: "viral"
+      rag_aliases:
+        - "tomato yellow leaf curl virus"
+        - "tylcv"
+        - "whitefly transmitted virus"
+        - "stunted upright curling leaves"
+
+wheat:
+  classes:
+    - id: "healthy"
+      canonical_name: "Healthy Wheat"
+      dataset_labels: ["Healthy Leaf", "healthy", "Healthy"]
+      urdu_name: "صحت مند گندم کا پودا"
+      roman_urdu_name: "Sehatmand Gandum Ka Pauda"
+      pathogen: null
+      disease_type: "healthy"
+      rag_aliases:
+        - "healthy wheat"
+        - "gandum sehatmand"
+
+    - id: "black_point"
+      canonical_name: "Black Point"
+      dataset_labels: ["Black Point", "black_point"]
+      urdu_name: "بلیک پوائنٹ (گندم کے دانے کے کالے سرے)"
+      roman_urdu_name: "Black Point / Kale Sire Ki Bemari"
+      pathogen: "Bipolaris sorokiniana / Alternaria alternata"
+      disease_type: "fungal"
+      rag_aliases:
+        - "black point wheat"
+        - "kernel smudge"
+        - "bipolaris sorokiniana"
+        - "dark brown embryo discolouration"
+
+    - id: "fusarium_foot_rot"
+      canonical_name: "Fusarium Foot Rot / Crown Rot"
+      dataset_labels: ["Fusarium Foot Rot", "fusarium_foot_rot"]
+      urdu_name: "فیوزریئم جڑ اور تنے کا گلنا"
+      roman_urdu_name: "Fusarium Foot Rot / Tane Ka Galna"
+      pathogen: "Fusarium culmorum / Fusarium pseudograminearum"
+      disease_type: "fungal"
+      rag_aliases:
+        - "fusarium foot rot wheat"
+        - "crown rot wheat"
+        - "stem base browning"
+        - "whiteheads prematurely dying"
+
+    - id: "leaf_blight"
+      canonical_name: "Leaf Blight / Spot Blotch"
+      dataset_labels: ["Leaf Blight", "leaf_blight", "spot_blotch"]
+      urdu_name: "پتوں کا جھلسائو (سپاٹ بلاچ)"
+      roman_urdu_name: "Leaf Blight / Spot Blotch"
+      pathogen: "Bipolaris sorokiniana"
+      disease_type: "fungal"
+      rag_aliases:
+        - "wheat leaf blight"
+        - "spot blotch wheat"
+        - "bipolaris sorokiniana"
+        - "elongated brown necrotic spots"
+
+    - id: "wheat_blast"
+      canonical_name: "Wheat Blast"
+      dataset_labels: ["Wheat Blast", "wheat_blast"]
+      urdu_name: "گندم کا بلاسٹ"
+      roman_urdu_name: "Wheat Blast / Gandum Blast"
+      pathogen: "Magnaporthe oryzae Triticum"
+      disease_type: "fungal"
+      rag_aliases:
+        - "wheat blast"
+        - "magnaporthe oryzae"
+        - "bleached spikes and heads"
+        - "elliptical eye-shaped lesions"
+
+    - id: "stripe_rust"
+      canonical_name: "Stripe Rust / Yellow Rust"
+      dataset_labels: ["Stripe Rust", "stripe_rust", "yellow_rust"]
+      urdu_name: "زرد کنگی / سٹرائپ رسٹ"
+      roman_urdu_name: "Zard Kungi / Yellow Rust / Stripe Rust"
+      pathogen: "Puccinia striiformis f. sp. tritici"
+      disease_type: "fungal"
+      rag_aliases:
+        - "yellow rust wheat"
+        - "stripe rust"
+        - "zard kungi"
+        - "puccinia striiformis"
+        - "yellow powdery linear stripes on leaves"
+
+cotton:
+  classes:
+    - id: "healthy"
+      canonical_name: "Healthy Cotton"
+      dataset_labels: ["Healthy Leaf", "healthy", "Healthy", "aug_Healthy_Leaf"]
+      urdu_name: "صحت مند کپاس"
+      roman_urdu_name: "Sehatmand Kapas"
+      pathogen: null
+      disease_type: "healthy"
+      rag_aliases:
+        - "healthy cotton"
+        - "kapas sehatmand"
+
+    - id: "alternaria_leaf_spot"
+      canonical_name: "Alternaria Leaf Spot"
+      dataset_labels: ["Alternaria Leaf Spot", "alternaria_leaf_spot", "aug_Alternaria_Leaf"]
+      urdu_name: "الٹرنیریا پتوں کے دھبے"
+      roman_urdu_name: "Alternaria Leaf Spot / Patton Ke Dhabay"
+      pathogen: "Alternaria macrospora / Alternaria alternata"
+      disease_type: "fungal"
+      rag_aliases:
+        - "alternaria leaf spot cotton"
+        - "alternaria macrospora"
+        - "circular brown spots with purple margins"
+
+    - id: "bacterial_blight"
+      canonical_name: "Bacterial Blight / Angular Leaf Spot"
+      dataset_labels: ["Bacterial Blight", "bacterial_blight", "aug_Bacterial_Blight"]
+      urdu_name: "بیکٹیریل بلائٹ / کونیائی دھبے اور بلیک آرم"
+      roman_urdu_name: "Bacterial Blight / Koniai Dhabay / Black Arm"
+      pathogen: "Xanthomonas citri pv. malvacearum"
+      disease_type: "bacterial"
+      rag_aliases:
+        - "bacterial blight cotton"
+        - "angular leaf spot"
+        - "black arm"
+        - "xanthomonas citri pv malvacearum"
+        - "water soaked angular lesions bounded by veins"
+
+    - id: "fusarium_wilt"
+      canonical_name: "Fusarium Wilt"
+      dataset_labels: ["Fusarium Wilt", "fusarium_wilt", "aug_Fusarium_Wilt"]
+      urdu_name: "فیوزریئم مرجھائو (اُکھیڑا بیماری)"
+      roman_urdu_name: "Fusarium Wilt / Kapas Ka Ukhera"
+      pathogen: "Fusarium oxysporum f. sp. vasinfectum"
+      disease_type: "fungal"
+      rag_aliases:
+        - "fusarium wilt cotton"
+        - "kapas ka ukhera"
+        - "vascular browning in stem"
+        - "wilting and yellowing from bottom upwards"
+
+    - id: "verticillium_wilt"
+      canonical_name: "Verticillium Wilt"
+      dataset_labels: ["Verticillium Wilt", "verticillium_wilt", "aug_Verticillium_Wilt"]
+      urdu_name: "ورٹیسیلیم مرجھائو"
+      roman_urdu_name: "Verticillium Wilt"
+      pathogen: "Verticillium dahliae"
+      disease_type: "fungal"
+      rag_aliases:
+        - "verticillium wilt cotton"
+        - "verticillium dahliae"
+        - "tiger stripe interveinal chlorosis"
+        - "mottling on leaves"
+
+    - id: "cotton_leaf_curl_virus"
+      canonical_name: "Cotton Leaf Curl Virus (CLCuV)"
+      dataset_labels: ["Cotton Leaf Curl", "cotton_leaf_curl_virus", "clcuv"]
+      urdu_name: "کپاس کے پتوں کا مروڑ وائرس (سی ایل سی یو وی)"
+      roman_urdu_name: "Cotton Leaf Curl Virus / Maror Virus (CLCuV)"
+      pathogen: "Cotton leaf curl virus (Begomovirus)"
+      disease_type: "viral"
+      rag_aliases:
+        - "cotton leaf curl virus"
+        - "clcuv"
+        - "whitefly vector transmission"
+        - "thickened veins and cup shaped enations"

@@ -1,0 +1,33 @@
+Pest Management Decision Guide: Yellow (Stripe) Rust and Leaf Rust of Wheat in Pakistan
+Crop Diseases Research Institute (CDRI/CDRP), NARC, PARC, Islamabad
+
+1. IDENTIFICATION & EPIDEMIOLOGY:
+- Yellow / Stripe Rust (Puccinia striiformis f. sp. tritici):
+  * Symptoms: Linear rows (stripes) of bright yellow powdery pustules (urediniospores) along the leaf veins of wheat.
+  * Weather trigger: Cool, moist weather with temperatures between 10°C and 18°C, heavy fog, and high humidity (>85%). Severe in northern/central Punjab, KP, and sub-mountainous tracts (Rawalpindi, Gujrat, Sialkot, Faisalabad).
+- Brown / Leaf Rust (Puccinia triticina):
+  * Symptoms: Scattered, circular to oval orange-brown powdery pustules on the upper leaf blade.
+  * Weather trigger: Moderately warm temperatures (18°C to 26°C) and prolonged dew/moisture. Common in late February and March across central and southern Punjab and Sindh.
+- Black Point / Kernel Smudge (Bipolaris sorokiniana / Alternaria):
+  * Symptoms: Dark brown/black discolouration of the embryo end of wheat kernels; foliar spot blotch lesions.
+- Wheat Blast (Magnaporthe oryzae Triticum) Threat:
+  * Symptoms: Bleached spikes/heads with elliptical lesions on rachis and upper leaves. Quarantine disease threat.
+
+2. GREEN LIST (PREVENTION & AGRONOMIC MANAGEMENT):
+- Resistant Wheat Cultivars: Plant certified rust-resistant wheat varieties recommended by PARC/Punjab Seed Council (e.g. Akbar-19, Dilkash-20, Subhani-21, Fakhar-e-Bhakkar, Ufaq-20, Ghazi-19).
+- Avoid planting obsolete susceptible varieties (e.g. Inqilab-91, Sehar-06, Faisalabad-08, Galaxy-13) which act as green bridges.
+- Optimum Sowing Date: Sow between November 1 and November 20. Late sown wheat (after Dec 1) suffers 3-4x higher rust severity and yield loss.
+- Balanced Nutrition: Avoid excessive nitrogen fertilizer which produces lush susceptible foliage. Ensure adequate Potassium and Phosphorus to enhance cell wall resistance.
+- Field Scouting: Inspect fields weekly from January through March, focusing on shaded field borders, low-lying moist areas, and weed patches.
+
+3. YELLOW LIST (FUNGICIDAL CONTROL & ECONOMIC THRESHOLDS):
+- Economic Threshold: When rust pustules are detected on lower/middle leaves on 5-10% of surveyed plants and weather is favorable.
+- Approved Fungicides in Pakistan:
+  * Tebuconazole 250 EC (Folicur / Orius) @ 200-250 ml/acre in 100-120 L water OR
+  * Propiconazole 250 EC (Tilt / Bumper) @ 200 ml/acre in 100 L water OR
+  * Azoxystrobin + Difenoconazole (Amistar Top) @ 200 ml/acre OR
+  * Epoxiconazole + Carbendazim @ 250 ml/acre.
+- Application Technique:
+  * Use hollow cone nozzles for thorough canopy penetration. Ensure spray reaches the flag leaf, which contributes >50% of grain filling.
+  * Spray when leaves are free of heavy morning dew. Never spray if rain is forecast within 4 hours.
+  * Observe 30-day PHI for grain harvest.

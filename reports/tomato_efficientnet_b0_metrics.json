@@ -1,0 +1,68 @@
+{
+  "crop": "tomato",
+  "arch": "efficientnet_b0",
+  "num_classes": 6,
+  "classes": [
+    "Tomato_Early_blight_leaf",
+    "Tomato_Healthy_leaf",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_leaf_late_blight",
+    "Tomato_leaf_yellow_curl_virus",
+    "Tomato_mold_leaf"
+  ],
+  "best_val_f1": 0.8057,
+  "test_accuracy": 0.7311,
+  "test_macro_f1": 0.7241,
+  "history": {
+    "train_loss": [
+      1.7524,
+      1.6456,
+      1.4582,
+      1.1715,
+      0.841,
+      0.5938,
+      0.4553,
+      0.3658
+    ],
+    "train_f1": [
+      0.2745,
+      0.5624,
+      0.6791,
+      0.7099,
+      0.7338,
+      0.8207,
+      0.8505,
+      0.8924
+    ],
+    "val_loss": [
+      1.6836,
+      1.5552,
+      1.2616,
+      0.907,
+      0.6758,
+      0.5936,
+      0.5166,
+      0.5237
+    ],
+    "val_f1": [
+      0.4175,
+      0.5713,
+      0.6135,
+      0.695,
+      0.7501,
+      0.8057,
+      0.7762,
+      0.8057
+    ],
+    "val_acc": [
+      0.5,
+      0.5932,
+      0.6441,
+      0.7119,
+      0.7712,
+      0.8136,
+      0.7797,
+      0.8136
+    ]
+  }
+}

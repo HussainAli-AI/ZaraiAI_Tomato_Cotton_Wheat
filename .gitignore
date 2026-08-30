@@ -1,0 +1,49 @@
+# Environment & Secrets (CRITICAL)
+.env
+*.env
+.env.*
+.env.local
+!.env.example
+
+# Python & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets & Heavy Raw Archives (Gigabytes)
+data/raw/
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+knowledge_base/raw/*.pdf
+
+# Local Vector Store & DB Instances
+knowledge_base/chroma_db/
+chroma_db/
+*.sqlite3
+
+# Logs & Temp Files
+*.log
+*.tmp
+*.temp
+
+# IDE & OS Specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+

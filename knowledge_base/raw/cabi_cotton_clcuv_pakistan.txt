@@ -1,0 +1,33 @@
+Pest Management Decision Guide: Cotton Leaf Curl Virus (CLCuV) and Whitefly Vector in Pakistan
+Central Cotton Research Institute (CCRI), Multan & Directorate General Agriculture Extension Punjab
+
+1. ETIOLOGY & SYMPTOMS:
+- CLCuV is a Begomovirus (Geminiviridae) complex with DNA satellites (Burewala and recombinant strains).
+- Transmitted exclusively by the Whitefly (Bemisia tabaci) in a persistent-circulative manner.
+- Characteristic symptoms:
+  * Vein thickening and dark green leaf vein discoloration on the underside.
+  * Upward or downward curling of leaf margins.
+  * Enations (leaf-like outgrowths/cups) developing on the veins of lower leaf surfaces.
+  * Severe stunting of the plant, poor boll formation, small bolls, and incomplete fiber development.
+- Favorable conditions: Hot, humid weather (35-42°C, 65-80% RH), presence of alternate weed hosts (Peeli Buti/Abutilon, Kanghi Buti, Parthenium), and high whitefly populations.
+
+2. GREEN LIST (CULTURAL & BIOLOGICAL MANAGEMENT):
+- Tolerant/Resistant Cultivars: Sow CCRI/AARI approved Bt cotton varieties with verified CLCuV tolerance (e.g. CKC-01, CKC-03, FH-333, BS-15, MNH-1020, IUB-2013, CEMB-33).
+- Early Sowing Window: Plant between March 15 and April 30. Early-sown cotton develops physiological hardiness before peak whitefly migration in July-August.
+- Acid Delinting & Seed Treatment: Delint seed with commercial sulphuric acid (1 liter per 10 kg seed) and treat with Imidacloprid 70 WS @ 5 g/kg seed to protect crop from sucking pests for 30-40 days.
+- Eradicate Alternate Hosts: Systematically destroy weeds on watercourses, field bunds, and roadsides (Parthenium hysterophorus, Abutilon indicum, Solanum nigrum).
+- Balanced Fertilization: Avoid excessive Nitrogen. Apply Potassium (50 kg SOP/acre) to strengthen plant vascular bundles and resistance.
+- Conserve Natural Predators: Chrysoperla carnea (Green lacewing), ladybird beetles, and Encarsia parasitoids. Install yellow sticky traps (10-15 per acre).
+
+3. YELLOW LIST (WHITEFLY CHEMICAL CONTROL & ECONOMIC THRESHOLDS):
+- Economic Injury Level (ETL): 5 whitefly adults or nymphs per leaf (scouted on 20 random plants per acre).
+- Chemical Control Options:
+  * Sucking stage / Early nymphal surge: Pyriproxyfen 10.8 EC @ 400-500 ml/acre (IGR - insect growth regulator) OR
+  * Diafenthiuron 500 SC (Polo) @ 200-250 ml/acre OR
+  * Spirotetramat (Movento 240 SC) @ 125 ml/acre OR
+  * Flonicamid 50 WG (Ulala) @ 60-80 g/acre OR
+  * Acetamiprid 20 SP @ 125 g/acre.
+- Spray Protocol:
+  * Direct hollow cone spray nozzles toward the underside of leaves where whiteflies colonize.
+  * Rotate insecticide modes of action (IRAC Group 4A, 7C, 12A, 23, 29) to avoid whitefly resistance.
+  * Do not spray broad-spectrum synthetic pyrethroids early in the season, as they destroy natural predators and cause whitefly resurgence.

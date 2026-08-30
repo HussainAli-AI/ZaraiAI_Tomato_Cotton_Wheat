@@ -1,0 +1,33 @@
+Pest Management Decision Guide: Tomato Early Blight (Alternaria solani) in Pakistan
+Publisher: CABI PlantwisePlus / Directorate General of Agriculture Extension Punjab
+
+1. SYMPTOMS & DIAGNOSIS:
+- Early blight is caused by the fungus Alternaria solani.
+- Characteristic dark brown to black spots with concentric rings ('target-board' or bullseye appearance) appear first on older, lower leaves.
+- Surrounding tissue turns yellow (chlorosis), leading to premature defoliation, sunburn on fruit, and reduced yield.
+- Stems develop dark, sunken collar rot lesions; fruits develop dark leathery sunken spots at the stem end.
+- Favorable conditions: Warm temperatures (24-29°C) accompanied by high humidity, heavy dew, or frequent light rain/overhead irrigation.
+
+2. GREEN LIST (PREVENTION, CULTURAL & BIOLOGICAL CONTROLS):
+- Crop Rotation: Rotate with non-solanaceous crops (e.g. maize, legumes, wheat) for at least 2 to 3 years.
+- Certified Disease-Free Seed: Use certified seeds or treat nursery seeds with hot water (50°C for 25 mins) or Trichoderma harzianum.
+- Wide Plant Spacing: Maintain 60-75 cm row spacing to ensure adequate air circulation and rapid leaf drying.
+- Drip / Furrow Irrigation: Avoid overhead sprinkler irrigation. Irrigate in early morning so foliage dries quickly during daylight.
+- Staking & Mulching: Stake plants to keep foliage off bare wet soil; apply straw mulch to prevent soil-splashing of spores onto lower leaves.
+- Sanitation: Prune lower infected leaves at first sight; destroy or deeply bury crop residues after harvest. Do not compost diseased leaves.
+
+3. YELLOW LIST (DIRECT CHEMICAL CONTROLS & LOCAL REGULATORY COMPLIANCE):
+- Action Threshold: Apply protective fungicide spray at first sign of lower leaf spotting or when humid overcast weather persists for >48 hours.
+- Protectant Fungicides:
+  * Mancozeb 75% WP @ 2-2.5 g/L water (800g/acre) OR
+  * Chlorothalonil 75% WP @ 2.0 g/L water (600-800g/acre) OR
+  * Copper Oxychloride 50% WP @ 2.5-3.0 g/L water.
+- Systemic / Curative Fungicides (for established infection):
+  * Difenoconazole 25% EC @ 0.5-1.0 ml/L water (Score 250 EC @ 100-125 ml/acre) OR
+  * Azoxystrobin + Difenoconazole (Amistar Top) @ 1 ml/L water (200 ml/acre) OR
+  * Metalaxyl + Mancozeb (Ridomil Gold) @ 2.5 g/L water.
+- Spray Guidance & Safety:
+  * Apply during calm morning or late evening hours. Avoid spraying when wind speed exceeds 10 km/h or when rain is expected within 4 hours.
+  * Alternate chemical groups (FRAC codes M03, FRAC 3, FRAC 11) to avoid fungicide resistance.
+  * Pre-Harvest Interval (PHI): Observe 7 days for Mancozeb/Chlorothalonil, 3 days for Difenoconazole before harvesting fruit.
+  * Wear protective PPE (gloves, mask, goggles). Keep water clean with neutral pH (6.5-7.0).

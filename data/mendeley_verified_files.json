@@ -1,0 +1,86 @@
+[
+  {
+    "crop": "tomato",
+    "dataset_name": "Tomato Pakistan",
+    "dataset_id": "3mbnb82mxd",
+    "version": 2,
+    "doi": "10.17632/3mbnb82mxd.2",
+    "filename": "Tomato_Leaf_Disease_Dataset_Pakistan.zip",
+    "file_id": "4844fda3-b66b-4b2a-bd83-775c0da974ea",
+    "size_bytes": 726457628,
+    "sha256": "2a2b36a8f972337f6d0e95e436835e55ffee5291fa07277157b40f0441f42f50",
+    "download_url": "https://data.mendeley.com/public-files/datasets/3mbnb82mxd/files/4844fda3-b66b-4b2a-bd83-775c0da974ea/file_downloaded"
+  },
+  {
+    "crop": "wheat",
+    "dataset_name": "Wheat Disease Dataset",
+    "dataset_id": "5gc7hwydwg",
+    "version": 1,
+    "doi": "10.17632/5gc7hwydwg.1",
+    "filename": "Wheat Disease.zip",
+    "file_id": "5c163bc0-311f-4b10-bd09-d5cb949237cc",
+    "size_bytes": 3817584463,
+    "sha256": "bb21be5d9dbfb9a543231fb9e3882901248b8c9cd3201a98169eb364e9278196",
+    "download_url": "https://data.mendeley.com/public-files/datasets/5gc7hwydwg/files/5c163bc0-311f-4b10-bd09-d5cb949237cc/file_downloaded"
+  },
+  {
+    "crop": "wheat",
+    "dataset_name": "Wheat Leaf Dataset",
+    "dataset_id": "wgd66f8n6h",
+    "version": 1,
+    "doi": "10.17632/wgd66f8n6h.1",
+    "filename": "wheat_leaf.rar",
+    "file_id": "4ec9266d-d7c1-4fd5-85c9-e5624c09a847",
+    "size_bytes": 1511923897,
+    "sha256": "23653dd88f9f900315a9a0c88a163c891b3bdd00cc89b36d98cc5b3fcc1d7e94",
+    "download_url": "https://data.mendeley.com/public-files/datasets/wgd66f8n6h/files/4ec9266d-d7c1-4fd5-85c9-e5624c09a847/file_downloaded"
+  },
+  {
+    "crop": "cotton",
+    "dataset_name": "Cotton Leaf Dataset A",
+    "dataset_id": "t9hgvk2h9p",
+    "version": 1,
+    "doi": "10.17632/t9hgvk2h9p.1",
+    "filename": "Cotton_Augmented_Dataset.zip",
+    "file_id": "2e73108c-fe68-4c59-8fd0-cfe47074fe42",
+    "size_bytes": 360519285,
+    "sha256": "2e3d5ce6a99ed895af5e18455a7523efa8e18365b0744e4c42827e877755ea6c",
+    "download_url": "https://data.mendeley.com/public-files/datasets/t9hgvk2h9p/files/2e73108c-fe68-4c59-8fd0-cfe47074fe42/file_downloaded"
+  },
+  {
+    "crop": "cotton",
+    "dataset_name": "Cotton Leaf Dataset A",
+    "dataset_id": "t9hgvk2h9p",
+    "version": 1,
+    "doi": "10.17632/t9hgvk2h9p.1",
+    "filename": "Cotton_Original_Dataset.zip",
+    "file_id": "a3bc3269-5c19-4394-824b-50be764a27c4",
+    "size_bytes": 60910234,
+    "sha256": "f1c666c029d7284e86f79597154bfb5270efd79d4fd352a7b2803ccdd1bbc4c3",
+    "download_url": "https://data.mendeley.com/public-files/datasets/t9hgvk2h9p/files/a3bc3269-5c19-4394-824b-50be764a27c4/file_downloaded"
+  },
+  {
+    "crop": "cotton",
+    "dataset_name": "Cotton Sindh Pakistan Dataset B",
+    "dataset_id": "nmjxz73z6y",
+    "version": 2,
+    "doi": "10.17632/nmjxz73z6y.2",
+    "filename": "Cotton diseases DS.rar",
+    "file_id": "6d78316a-1b3b-41d4-b62e-53186ad2fbfe",
+    "size_bytes": 7896,
+    "sha256": "7b41859a5716c8cc776240d100007ee7c5df9411c674c5ffd8074aa68e5f3d22",
+    "download_url": "https://data.mendeley.com/public-files/datasets/nmjxz73z6y/files/6d78316a-1b3b-41d4-b62e-53186ad2fbfe/file_downloaded"
+  },
+  {
+    "crop": "cotton",
+    "dataset_name": "Cotton Sindh Pakistan Dataset B",
+    "dataset_id": "nmjxz73z6y",
+    "version": 2,
+    "doi": "10.17632/nmjxz73z6y.2",
+    "filename": "patesdataset.rar",
+    "file_id": "9c8af48c-d78d-4a9b-939c-09fdd1a167cb",
+    "size_bytes": 126853595,
+    "sha256": "327b43fa7b311d4d8ef08dbef2df777504b99fdcad7572249e0aa7cc8a98c2b3",
+    "download_url": "https://data.mendeley.com/public-files/datasets/nmjxz73z6y/files/9c8af48c-d78d-4a9b-939c-09fdd1a167cb/file_downloaded"
+  }
+]
