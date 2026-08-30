@@ -91,7 +91,7 @@ Multilingual Farmer Response (Action Plan + Citations)
 ### Local Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/ZaraiAI_Tomato_Cotton_Wheat.git
+git clone https://github.com/HussainAli-AI/ZaraiAI_Tomato_Cotton_Wheat.git
 cd ZaraiAI_Tomato_Cotton_Wheat
 
 # Install dependencies
