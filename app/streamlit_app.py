@@ -59,97 +59,103 @@ st.markdown("""
     
     .badge-confidence {
         display: inline-block;
-        padding: 0.35rem 0.85rem;
+        padding: 0.4rem 0.95rem;
         border-radius: 20px;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 0.95rem;
-        background-color: rgba(46, 125, 50, 0.18);
-        color: #4CAF50 !important;
-        border: 1px solid #4CAF50;
+        background-color: #E8F5E9;
+        color: #1B5E20 !important;
+        border: 1.5px solid #2E7D32;
     }
     
     .badge-warning {
-        background-color: rgba(255, 152, 0, 0.18);
-        color: #FF9800 !important;
-        border: 1px solid #FF9800;
+        background-color: #FFF3E0 !important;
+        color: #B45309 !important;
+        border: 1.5px solid #F59E0B !important;
     }
     
     .card-metric {
-        background: rgba(46, 125, 50, 0.1);
-        border: 1px solid rgba(46, 125, 50, 0.3);
+        background: #F1F8F4;
+        border: 1px solid #A5D6A7;
         border-radius: 12px;
-        padding: 1.2rem;
+        padding: 1.1rem;
         text-align: center;
+        color: #0F172A;
+        font-size: 1rem;
     }
     
     .source-card {
-        background: rgba(46, 125, 50, 0.08);
-        border-left: 5px solid #4CAF50;
-        border-top: 1px solid rgba(255, 255, 255, 0.08);
-        border-right: 1px solid rgba(255, 255, 255, 0.08);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-        padding: 1.1rem;
+        background: #F0FDF4;
+        border-left: 5px solid #16A34A;
+        border-top: 1px solid #DCFCE7;
+        border-right: 1px solid #DCFCE7;
+        border-bottom: 1px solid #DCFCE7;
+        padding: 1.2rem;
         border-radius: 10px;
-        margin-bottom: 0.9rem;
+        margin-bottom: 1rem;
+        color: #0F172A;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
     }
     
     .source-title {
         font-weight: 700;
-        font-size: 1.05rem;
-        color: #4CAF50 !important;
-        margin-bottom: 4px;
+        font-size: 1.1rem;
+        color: #15803D !important;
+        margin-bottom: 6px;
     }
     
     .source-meta {
-        font-size: 0.9rem;
-        opacity: 0.85;
-        line-height: 1.5;
+        font-size: 0.95rem;
+        color: #334155 !important;
+        line-height: 1.6;
     }
     
     .llm-badge-live {
-        background-color: rgba(46, 125, 50, 0.2);
-        color: #4CAF50 !important;
-        border: 1px solid #4CAF50;
-        padding: 6px 12px;
+        background-color: #DCFCE7;
+        color: #166534 !important;
+        border: 1.5px solid #22C55E;
+        padding: 6px 14px;
         border-radius: 12px;
-        font-size: 0.85rem;
-        font-weight: 600;
+        font-size: 0.9rem;
+        font-weight: 700;
         display: inline-block;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
     
     .llm-badge-offline {
-        background-color: rgba(255, 152, 0, 0.18);
-        color: #FF9800 !important;
-        border: 1px solid #FF9800;
-        padding: 6px 12px;
+        background-color: #FEF3C7;
+        color: #92400E !important;
+        border: 1.5px solid #F59E0B;
+        padding: 6px 14px;
         border-radius: 12px;
-        font-size: 0.85rem;
-        font-weight: 600;
+        font-size: 0.9rem;
+        font-weight: 700;
         display: inline-block;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
     
     .advisory-box {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: #F8FAFC;
+        border: 1.5px solid #CBD5E1;
+        border-left: 6px solid #16A34A;
         border-radius: 14px;
-        padding: 1.6rem 2rem;
-        font-size: 1.05rem;
-        line-height: 1.8;
-        color: #E2E8F0;
-        margin-top: 0.8rem;
-        margin-bottom: 1.5rem;
+        padding: 1.8rem 2.2rem;
+        font-size: 1.08rem;
+        line-height: 1.85;
+        color: #0F172A !important;
+        margin-top: 1rem;
+        margin-bottom: 1.8rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     }
     
     .advisory-box h2, .advisory-box h3 {
-        font-size: 1.25rem !important;
-        font-weight: 600 !important;
-        color: #4CAF50 !important;
-        margin-top: 1.4rem !important;
-        margin-bottom: 0.6rem !important;
-        border-bottom: 1px solid rgba(76, 175, 80, 0.15);
-        padding-bottom: 4px;
+        font-size: 1.35rem !important;
+        font-weight: 700 !important;
+        color: #15803D !important;
+        margin-top: 1.5rem !important;
+        margin-bottom: 0.75rem !important;
+        border-bottom: 2px solid #E2E8F0;
+        padding-bottom: 6px;
     }
     
     .advisory-box h2:first-child, .advisory-box h3:first-child {
@@ -157,25 +163,65 @@ st.markdown("""
     }
     
     .advisory-box p {
-        font-size: 1.02rem !important;
-        font-weight: 400 !important;
-        line-height: 1.75 !important;
-        margin-bottom: 0.8rem !important;
-        color: #CBD5E1 !important;
+        font-size: 1.06rem !important;
+        font-weight: 450 !important;
+        line-height: 1.85 !important;
+        margin-bottom: 0.95rem !important;
+        color: #1E293B !important;
     }
     
     .advisory-box ol, .advisory-box ul {
-        margin-top: 0.4rem;
-        margin-bottom: 1rem;
-        padding-left: 1.4rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.2rem;
+        padding-left: 1.6rem;
     }
     
     .advisory-box li {
-        font-size: 1.02rem !important;
-        font-weight: 400 !important;
-        line-height: 1.75 !important;
-        margin-bottom: 0.6rem !important;
-        color: #E2E8F0 !important;
+        font-size: 1.05rem !important;
+        font-weight: 450 !important;
+        line-height: 1.85 !important;
+        margin-bottom: 0.8rem !important;
+        color: #1E293B !important;
+    }
+    
+    .advisory-box strong, .advisory-box b {
+        font-weight: 700 !important;
+        color: #0F172A !important;
+    }
+    
+    /* Dark Mode Overrides */
+    @media (prefers-color-scheme: dark) {
+        .advisory-box {
+            background: #0B1914 !important;
+            border: 1.5px solid #1E4634 !important;
+            border-left: 6px solid #22C55E !important;
+            color: #F1F5F9 !important;
+        }
+        .advisory-box p, .advisory-box li {
+            color: #E2E8F0 !important;
+        }
+        .advisory-box strong, .advisory-box b {
+            color: #86EFAC !important;
+        }
+        .advisory-box h2, .advisory-box h3 {
+            color: #4ADE80 !important;
+            border-bottom: 2px solid #1E4634 !important;
+        }
+        .source-card {
+            background: #0B1914 !important;
+            border-top: 1px solid #1E4634 !important;
+            border-right: 1px solid #1E4634 !important;
+            border-bottom: 1px solid #1E4634 !important;
+            color: #F1F5F9 !important;
+        }
+        .source-meta {
+            color: #CBD5E1 !important;
+        }
+        .card-metric {
+            background: #0B1914 !important;
+            border: 1px solid #1E4634 !important;
+            color: #F1F5F9 !important;
+        }
     }
 </style>
 """, unsafe_allow_html=True)
