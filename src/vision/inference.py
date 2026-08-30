@@ -165,10 +165,10 @@ class CropVisionInference:
         cam_image = None
         if generate_cam:
             try:
-                # Requires gradients for backward pass
-                tensor_grad = tensor_img.clone().detach().requires_grad_(True)
-                heatmap = self.gradcam.generate_heatmap(tensor_grad, target_class=top_idx)
-                cam_image = self.gradcam.overlay_heatmap(pil_img, heatmap)
+                with torch.enable_grad():
+                    tensor_grad = tensor_img.clone().detach().requires_grad_(True)
+                    heatmap = self.gradcam.generate_heatmap(tensor_grad, target_class=top_idx)
+                    cam_image = self.gradcam.overlay_heatmap(pil_img, heatmap)
             except Exception as e:
                 print(f"Warning: Grad-CAM generation failed: {e}")
                 cam_image = None

@@ -47,34 +47,38 @@ class GradCAM:
         """
         self.model.zero_grad()
         
-        # Forward pass
-        output = self.model(input_tensor)
-        
-        if target_class is None:
-            target_class = torch.argmax(output, dim=1).item()
+        with torch.enable_grad():
+            # Forward pass
+            output = self.model(input_tensor)
             
-        # Target score for backprop
-        score = output[0, target_class]
-        score.backward()
-        
-        # Pool gradients across spatial dimensions (Global Average Pooling of grads)
-        pooled_gradients = torch.mean(self.gradients, dim=[0, 2, 3])
-        
-        # Weight activations by pooled gradients
-        activations = self.activations[0]
-        for i in range(activations.shape[0]):
-            activations[i, :, :] *= pooled_gradients[i]
+            if target_class is None:
+                target_class = torch.argmax(output, dim=1).item()
+                
+            # Target score for backprop
+            score = output[0, target_class]
+            score.backward()
             
-        # ReLU on weighted sum of activation maps
-        heatmap = torch.mean(activations, dim=0).squeeze()
-        heatmap = F.relu(heatmap)
-        
-        # Normalize to [0, 1]
-        heatmap_max = torch.max(heatmap)
-        if heatmap_max > 0:
-            heatmap /= heatmap_max
+            if self.gradients is None or self.activations is None:
+                raise ValueError("Grad-CAM hooks failed to capture activations or gradients.")
+                
+            # Pool gradients across spatial dimensions (Global Average Pooling of grads)
+            pooled_gradients = torch.mean(self.gradients, dim=[0, 2, 3])
             
-        return heatmap.cpu().detach().numpy()
+            # Weight activations by pooled gradients
+            activations = self.activations[0].clone()
+            for i in range(activations.shape[0]):
+                activations[i, :, :] *= pooled_gradients[i]
+                
+            # ReLU on weighted sum of activation maps
+            heatmap = torch.mean(activations, dim=0).squeeze()
+            heatmap = F.relu(heatmap)
+            
+            # Normalize to [0, 1]
+            heatmap_max = torch.max(heatmap)
+            if heatmap_max > 0:
+                heatmap /= heatmap_max
+                
+            return heatmap.cpu().detach().numpy()
         
     def overlay_heatmap(self, original_pil_image, heatmap, alpha=0.5, colormap=cv2.COLORMAP_JET):
         """

@@ -16,7 +16,6 @@ import torch
 
 # Optimize PyTorch memory footprint for cloud container limits
 torch.set_num_threads(1)
-torch.set_grad_enabled(False)
 
 from src.workflow.graph import ZaraiWorkflow
 from src.llm.client import QwenClient, PROVIDER_PRESETS
